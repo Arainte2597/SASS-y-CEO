@@ -1,0 +1,27 @@
+$colores:(
+    primario:red,
+    secundario:black,
+    terceario:white,
+);
+.titulo{
+    color: map-get($map:$colores , $key:primario );
+}
+.mainend h2{
+    background-color: map-get($map:$colores , $key:secundario );
+    color: map-get($map:$colores , $key:terceario );
+}
+.mainstart h2{
+
+    background-color: map-get($map:$colores , $key:secundario );
+    color: map-get($map:$colores , $key:terceario );
+}
+footer h2{
+
+    background-color: map-get($map:$colores , $key:secundario );
+}
+p{
+    color: map-get($map:$colores , $key:terceario );
+}
+h5{
+    color: map-get($map:$colores , $key:terceario );
+}

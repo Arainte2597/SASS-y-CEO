@@ -1,0 +1,30 @@
+.boton{
+    background-color:white;
+    text-align: center;
+    color:red;
+    border-radius: 20px;
+    border: 1px solid black;
+
+    &:hover{
+        filter: opacity(85%);
+        background-color:white;
+        color: black;
+    }
+}
+
+.botonCerdo{
+    @extend .boton;
+    background-color: red ;
+    color: white;
+}
+.botonPollo{
+    @extend .boton;
+    background-color: red;
+    color: yellow;
+}
+.botonCongelados{
+    @extend .boton;
+    background-color: red;
+    color: black;
+}
+

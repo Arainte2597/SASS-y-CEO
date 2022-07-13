@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-image: url(../img/fondo.webp);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  color: antiquewhite;
+}
+
+header {
+  background-image: url(../img/fondo.webp);
+}
+
+.boton, .botonCongelados, .botonPollo, .botonCerdo {
+  background-color: white;
+  text-align: center;
+  color: red;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.boton:hover, .botonCongelados:hover, .botonPollo:hover, .botonCerdo:hover {
+  filter: opacity(85%);
+  background-color: white;
+  color: black;
+}
+
+.botonCerdo {
+  background-color: red;
+  color: white;
+}
+
+.botonPollo {
+  background-color: red;
+  color: yellow;
+}
+
+.botonCongelados {
+  background-color: red;
+  color: black;
+}
+
+.carousel-inner {
+  max-height: 30rem;
+}
+
+.titulo {
+  font-family: "Joan", serif;
+  font-family: "Lexend", sans-serif;
+  font-family: "Oswald", sans-serif;
+}
+
+body p {
+  font-family: "Abril Fatface", cursive;
+  font-family: "Joan", serif;
+  font-family: "Lexend", sans-serif;
+}
+
+h2 {
+  font-family: "Joan", serif;
+  font-family: "Lexend", sans-serif;
+  font-family: "Oswald", sans-serif;
+  border: solid 2px;
+}
+
+header nav ul li {
+  font-size: 18px;
+}
+
+.buscanos {
+  text-align: center;
+  margin-top: 1cm;
+}
+
+.textfooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: antiquewhite;
+  text-align: center;
+}
+
+.texto {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.subtitulo {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.titulo {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.muestraimg {
+  height: 300px;
+  width: 100%;
+}
+
+.cardimg {
+  height: 400;
+  width: 100%;
+}
+
+.titulo {
+  color: red;
+}
+
+.mainend h2 {
+  background-color: black;
+  color: white;
+}
+
+.mainstart h2 {
+  background-color: black;
+  color: white;
+}
+
+footer h2 {
+  background-color: black;
+}
+
+p {
+  color: white;
+}
+
+h5 {
+  color: white;
+}
+
+#seccion1 {
+  background-image: url(../img/fondopagos.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.parala {
+  background: fixed no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.logo {
+  height: 10rem;
+  width: 8rem;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.mainstart {
+  background-image: url(../img/fondomadera2.jpg);
+}
+
+.mainend {
+  background-image: url(../img/fondomadera2.jpg);
+}
+
+.fondo1 {
+  background-image: url(../img/fondomadera2.jpg);
+}
+
+.contact {
+  background-image: url(../img/fondomadera2.jpg);
+}
+
+.card-body {
+  height: 100px;
+}
+
+.card-bodyy {
+  height: 120px;
+}
+
+.card {
+  margin: 15px;
+  background-color: black;
+}
+
+/*# sourceMappingURL=styles.css.map */
